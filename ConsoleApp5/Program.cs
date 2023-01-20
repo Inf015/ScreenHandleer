@@ -4,8 +4,8 @@ namespace ConsoleApp5
 {
     class program
     {
-        private static string _path = @"C:\Users\olive\OneDrive\Desktop\New folder\ScreenHandleerV4\ConsoleApp5\Preguntas.json";
-        private static string _path2 = @"C:\Users\olive\OneDrive\Desktop\New folder\ScreenHandleerV4\ConsoleApp5\db.json";
+        private static string _path = @"C:\Users\olive\Desktop\ScreenHandlerV4\ScreenHandleerV4\ConsoleApp5\Preguntas.json";
+        private static string _path2 = @"C:\Users\olive\Desktop\ScreenHandlerV4\ScreenHandleerV4\ConsoleApp5\db.json";
         static void Main(string[] args)
         {
             //var ganador = GetGanadors();
@@ -31,8 +31,8 @@ namespace ConsoleApp5
         {
             List<Data> Respuestas = new List<Data>();
 
-            var ganador = JsonConvert.DeserializeObject<Formulario>(GanadorJsonFile);
-            foreach (var Pregunta in ganador.Preguntas)
+            var preg = JsonConvert.DeserializeObject<Formulario>(GanadorJsonFile);
+            foreach (var Pregunta in preg.Contenido.Preguntas)
             {
                 while (true)
                 {

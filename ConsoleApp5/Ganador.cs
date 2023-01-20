@@ -21,7 +21,7 @@ namespace ConsoleApp5
         public string button {get; set; }
         public Contenido Contenido { get; set; }
     }
-}
+
 
 public class Pregunta
 {
@@ -39,4 +39,5 @@ public class Guardar
 {
     public string Texto { get; set; }
     public bool Requerido { get; set; }
+}
 }
