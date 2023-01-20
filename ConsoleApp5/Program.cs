@@ -37,8 +37,15 @@ namespace ConsoleApp5
         {
               List<Data> Respuestas = new List<Data>();
 
-              
+              var verificador = JsonConvert.DeserializeObject<Formulario>(VerificadorJsonFile);
+             Console.WriteLine($"{verificador.Contenido.verificador.Texto}");
+             var respuesta = Console.ReadLine();
 
+             if (respuesta != "Y")
+             {
+                Environment.Exit(0);
+             }
+             Console.Clear();
         }
 
 
