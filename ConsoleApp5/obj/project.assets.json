@@ -60,26 +60,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olive\\OneDrive\\Documents\\GitHub\\Screen-handlerv2\\ConsoleApp5\\ConsoleApp5\\ConsoleApp5.csproj",
+      "projectUniqueName": "C:\\Users\\olive\\OneDrive\\Desktop\\New folder\\ScreenHandleerV4\\ConsoleApp5\\ConsoleApp5.csproj",
       "projectName": "ConsoleApp5",
-      "projectPath": "C:\\Users\\olive\\OneDrive\\Documents\\GitHub\\Screen-handlerv2\\ConsoleApp5\\ConsoleApp5\\ConsoleApp5.csproj",
+      "projectPath": "C:\\Users\\olive\\OneDrive\\Desktop\\New folder\\ScreenHandleerV4\\ConsoleApp5\\ConsoleApp5.csproj",
       "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olive\\OneDrive\\Documents\\GitHub\\Screen-handlerv2\\ConsoleApp5\\ConsoleApp5\\obj\\",
+      "outputPath": "C:\\Users\\olive\\OneDrive\\Desktop\\New folder\\ScreenHandleerV4\\ConsoleApp5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\olive\\OneDrive\\Documents\\GitHub\\-Console-Screen-Handler\\Packages": {},
-        "C:\\Users\\olive\\OneDrive\\Documents\\GitHub\\-Console-Screen-Handler\\Packages\\": {},
-        "C:\\Users\\olive\\source\\repos\\Packages\\": {},
-        "C:\\Users\\olive\\source\\repos\\Packages\\Calc.1.0.0.nupkg": {},
-        "C:\\Users\\olive\\source\\repos\\Sum\\Sum\\bin\\Debug": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -114,12 +107,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.13, 6.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

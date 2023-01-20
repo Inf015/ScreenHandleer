@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "JuvySoUCHDzzTVZZaBod5ayt5IWVqBHHVJyCF8Bx4umRVWe3KZqmhWlVpzgET9S5BU69QnIuMjuL8T65OrhVFw==",
+  "dgSpecHash": "mCOyYBk4qUzK9d78MtdSOJvIX+RJeUR9fpi4QEMoNIJx4qPaSnl8D7MhrT6eFkeuT53N66Z6Mg/1pwHAjHhZeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\olive\\OneDrive\\Documents\\GitHub\\Screen-handlerv2\\ConsoleApp5\\ConsoleApp5\\ConsoleApp5.csproj",
+  "projectFilePath": "C:\\Users\\olive\\OneDrive\\Desktop\\New folder\\ScreenHandleerV4\\ConsoleApp5\\ConsoleApp5.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\olive\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\olive\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\olive\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\olive\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\olive\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\olive\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }

@@ -40,3 +40,11 @@ C:\Users\olive\OneDrive\Documents\GitHub\Screen-handlerv2\ConsoleApp5\ConsoleApp
 C:\Users\olive\OneDrive\Documents\GitHub\Screen-handlerv2\ConsoleApp5\ConsoleApp5\obj\Debug\net6.0\ConsoleApp5.dll
 C:\Users\olive\OneDrive\Documents\GitHub\Screen-handlerv2\ConsoleApp5\ConsoleApp5\obj\Debug\net6.0\refint\ConsoleApp5.dll
 C:\Users\olive\OneDrive\Documents\GitHub\Screen-handlerv2\ConsoleApp5\ConsoleApp5\obj\Debug\net6.0\ConsoleApp5.pdb
+C:\Users\olive\OneDrive\Desktop\New folder\ScreenHandleerV4\ConsoleApp5\obj\Debug\net6.0\ConsoleApp5.csproj.AssemblyReference.cache
+C:\Users\olive\OneDrive\Desktop\New folder\ScreenHandleerV4\ConsoleApp5\obj\Debug\net6.0\ConsoleApp5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olive\OneDrive\Desktop\New folder\ScreenHandleerV4\ConsoleApp5\obj\Debug\net6.0\ConsoleApp5.AssemblyInfoInputs.cache
+C:\Users\olive\OneDrive\Desktop\New folder\ScreenHandleerV4\ConsoleApp5\obj\Debug\net6.0\ConsoleApp5.AssemblyInfo.cs
+C:\Users\olive\OneDrive\Desktop\New folder\ScreenHandleerV4\ConsoleApp5\obj\Debug\net6.0\ConsoleApp5.csproj.CoreCompileInputs.cache
+C:\Users\olive\OneDrive\Desktop\New folder\ScreenHandleerV4\ConsoleApp5\obj\Debug\net6.0\ConsoleApp5.dll
+C:\Users\olive\OneDrive\Desktop\New folder\ScreenHandleerV4\ConsoleApp5\obj\Debug\net6.0\refint\ConsoleApp5.dll
+C:\Users\olive\OneDrive\Desktop\New folder\ScreenHandleerV4\ConsoleApp5\obj\Debug\net6.0\ConsoleApp5.pdb

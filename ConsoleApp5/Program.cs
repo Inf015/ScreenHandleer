@@ -4,8 +4,8 @@ namespace ConsoleApp5
 {
     class program
     {
-        private static string _path = @"C:\Users\olive\OneDrive\Documents\GitHub\Screen-handlerv2\ConsoleApp5\ConsoleApp5\Preguntas.json";
-        private static string _path2 = @"C:\Users\olive\OneDrive\Documents\GitHub\Screen-handlerv2\ConsoleApp5\ConsoleApp5\db.json";
+        private static string _path = @"C:\Users\olive\OneDrive\Desktop\New folder\ScreenHandleerV4\ConsoleApp5\Preguntas.json";
+        private static string _path2 = @"C:\Users\olive\OneDrive\Desktop\New folder\ScreenHandleerV4\ConsoleApp5\db.json";
         static void Main(string[] args)
         {
             //var ganador = GetGanadors();
