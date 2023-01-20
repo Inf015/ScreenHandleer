@@ -35,7 +35,10 @@ namespace ConsoleApp5
 
         public static void DeserializeVerificarorJsonFile(string VerificadorJsonFile)
         {
-            
+              List<Data> Respuestas = new List<Data>();
+
+              
+
         }
 
 
@@ -57,8 +60,8 @@ namespace ConsoleApp5
         {
             List<Data> Respuestas = new List<Data>();
 
-            var ganador = JsonConvert.DeserializeObject<Formulario>(FormularioJsonFile);
-            foreach (var Pregunta in ganador.Contenido.Preguntas)
+            var formulario = JsonConvert.DeserializeObject<Formulario>(FormularioJsonFile);
+            foreach (var Pregunta in formulario.Contenido.Preguntas)
             {
                 while (true)
                 {
