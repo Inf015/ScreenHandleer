@@ -1,0 +1,36 @@
+{
+  "ID": 1,
+  "Titulo": "Formulario",
+  "button": "principal",
+  "contenido": {
+    "verificador": {
+      "Texto": "Bienvenido al Dominican Roll Race, desea competir?",
+      "Requerido": true
+    },
+    "Preguntas": [
+      {
+        "Texto": "Cual es tu nombre?:",
+        "Requerido": true
+      },
+      {
+        "Texto": "Cual es tu Apellido?:",
+        "Requerido": true
+      },
+      {
+        "Texto": "Vehiculo con l cual vas a competir?:",
+        "Requerido": true
+      },
+      {
+        "Texto": "Categoria a competir?:",
+        "Requerido": true
+      }
+    ],
+    "Guardar": [
+      {
+        "Texto": "Desea Guardar su inscripcion?:",
+        "Requerido": true,
+        "handler": "Guardar"
+      }
+    ]
+  }
+}
