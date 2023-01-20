@@ -14,7 +14,11 @@ namespace ConsoleApp5
             DeserializeVerificarorJsonFile(verificador);
 
             var formulario = GetFormularioFromFile();
-            DeserializeFormularioJsonFile(formulario);
+            var respuesta = new List<Data>();
+            DeserializeFormularioJsonFile(formulario, ref respuesta);
+
+            var guardar = GetGuardarFromFile();
+            DeserializeGuardarJsonFile(guardar, respuesta);
 
         }
 
@@ -43,6 +47,7 @@ namespace ConsoleApp5
 
              if (respuesta != "Y")
              {
+                Console.WriteLine("Adios!!");
                 Environment.Exit(0);
              }
              Console.Clear();
@@ -61,12 +66,11 @@ namespace ConsoleApp5
             }
             return GanadorJsonFile;
         }
+        #endregion
         
         #region "Formulario"
-        public static void DeserializeFormularioJsonFile(string FormularioJsonFile)
+        public static void DeserializeFormularioJsonFile(string FormularioJsonFile, ref List<Data> Respuestas)
         {
-            List<Data> Respuestas = new List<Data>();
-
             var formulario = JsonConvert.DeserializeObject<Formulario>(FormularioJsonFile);
             foreach (var Pregunta in formulario.Contenido.Preguntas)
             {
@@ -83,16 +87,50 @@ namespace ConsoleApp5
                     }
                     Console.Clear();
                 }
-
             }
-            serializarJson(Respuestas, _path2);
         }
         #endregion
 
+        #region "Leer Guardar"
+        public static string GetGuardarFromFile()
+        {
+            string GuardarJsonFile;
+            using (var read = new StreamReader(_path))
+            {
+                GuardarJsonFile = read.ReadToEnd();
+            }
+            return GuardarJsonFile;
+        }
+        #endregion
+        #region "Guardar"
 
-        #region "Data"
+        public static void DeserializeGuardarJsonFile(string GuardarJsonFile, List<Data> Respuestas)
+        {
+            List<Data> Respuesta = new List<Data>();
+            var guardar = JsonConvert.DeserializeObject<Formulario>(GuardarJsonFile);
+            Console.WriteLine($"{guardar.Contenido.Guardar.Texto}");
+            var respuesta = Console.ReadLine();
+
+            if(respuesta != "Y")
+            {
+                Console.Clear();
+                Console.WriteLine("Esta bien, Adios!");
+                Environment.Exit(0);
+            }
+            else{
+
+            serializarJson(Respuestas, _path2);
+            Console.Clear();
+            System.Console.WriteLine("Gracias, Que disfrute del evento y buena suerte!");
+
+            }
+        }
+        #endregion
+
+        #region  "Serializar"
         public static void serializarJson(List<Data> data, string path2)
         {
+
             var x = File.ReadAllText(path2);
             var bk = JsonConvert.DeserializeObject<List<Data>>(x);
 
@@ -113,4 +151,3 @@ namespace ConsoleApp5
 
 
 }
-#endregion

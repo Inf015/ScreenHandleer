@@ -11,6 +11,8 @@ namespace ConsoleApp5
         public Verificador verificador { get; set; }
         public List<Pregunta> Preguntas { get; set; }
 
+        public Guardar Guardar { get; set; }
+
 
     }
 

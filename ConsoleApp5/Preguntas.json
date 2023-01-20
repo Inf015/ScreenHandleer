@@ -17,7 +17,7 @@
         "Requerido": true
       },
       {
-        "Texto": "Vehiculo con l cual vas a competir?:",
+        "Texto": "Vehiculo con el cual vas a competir?:",
         "Requerido": true
       },
       {
@@ -25,12 +25,9 @@
         "Requerido": true
       }
     ],
-    "Guardar": [
-      {
-        "Texto": "Desea Guardar su inscripcion?:",
-        "Requerido": true,
-        "handler": "Guardar"
-      }
-    ]
+    "Guardar": {
+      "Texto": "Desea Guardar su inscripcion?: Y/N",
+      "Requerido": true
+    }
   }
 }
