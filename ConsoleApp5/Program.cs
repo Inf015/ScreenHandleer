@@ -10,13 +10,39 @@ namespace ConsoleApp5
         {
             //var ganador = GetGanadors();
 
-            var ganador = GetGanadorFromFile();
-            DeserializeJsonFile(ganador);
+            var verificador = GetVerificadorFromFile();
+            DeserializeVerificarorJsonFile(verificador);
+
+            var formulario = GetFormularioFromFile();
+            DeserializeFormularioJsonFile(formulario);
+
+        }
+
+        #region "Leer Verificador"
+        public static string GetVerificadorFromFile()
+        {
+            string verificadorJsonFile;
+            using (var read = new StreamReader(_path))
+            {
+                verificadorJsonFile = read.ReadToEnd();
+            }
+            return verificadorJsonFile;
+        }
+        
+        #endregion
+
+        #region "Verificador"
+
+        public static void DeserializeVerificarorJsonFile(string VerificadorJsonFile)
+        {
+            
         }
 
 
-        #region "Leer"
-        public static string GetGanadorFromFile()
+        #endregion
+
+        #region "Leer Formulario"
+        public static string GetFormularioFromFile()
         {
             string GanadorJsonFile;
             using (var read = new StreamReader(_path))
@@ -25,14 +51,14 @@ namespace ConsoleApp5
             }
             return GanadorJsonFile;
         }
-
+        
         #region "Formulario"
-        public static void DeserializeJsonFile(string GanadorJsonFile)
+        public static void DeserializeFormularioJsonFile(string FormularioJsonFile)
         {
             List<Data> Respuestas = new List<Data>();
 
-            var preg = JsonConvert.DeserializeObject<Formulario>(GanadorJsonFile);
-            foreach (var Pregunta in preg.Contenido.Preguntas)
+            var ganador = JsonConvert.DeserializeObject<Formulario>(FormularioJsonFile);
+            foreach (var Pregunta in ganador.Contenido.Preguntas)
             {
                 while (true)
                 {
